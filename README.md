@@ -116,10 +116,10 @@ cd CRM
 
 <h2 align="center"> Project Maintainers & Admins</h2> 
 <div align="center"> 
-    <a href="https://github.com/nown1ne">
+    <a href="https://github.com/pratt0007">
     <img src="https://avatars.githubusercontent.com/u/25835195?v=4" width=100px height=100px />
     </a>
-    <p align="center"> Abhinav Srinivas </p>
+    <p align="center"> Partyush Nagpal </p>
 </div>
 <div align="center"> 
     <a href="https://github.com/IshaanAdarsh">
