@@ -111,12 +111,23 @@ git clone https://github.com/NITRR-Open-Source-Community/CRM/
 cd CRM
 
 ```
-**3.** Make Migrations
+**3.** Make Virtual Environment
+```
+python3 -m venv <env_name>
+.\<env_name>\Scripts\activate
+
+```
+**4.** Download All the Dependencies
+```
+pip install -r text.txt
+```
+
+**5.** Make Migrations
 ```python
 python manage.py makemigrations
 python manage.py migrate
 ```
-**4.** Runserver
+**6.** Runserver
 ```python
 python manage.py runserver
 ```
