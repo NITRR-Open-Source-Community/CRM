@@ -111,7 +111,16 @@ git clone https://github.com/NITRR-Open-Source-Community/CRM/
 cd CRM
 
 ```
-
+**3.** Make Migrations
+```python
+python manage.py makemigrations
+python manage.py migrate
+```
+**4.** Runserver
+```python
+python manage.py runserver
+```
+- After this command, you will run your project on local host, make necessary changes, solve issues!!
 <hr>
 
 <h2 align="center"> Project Maintainers & Admins</h2> 
@@ -140,11 +149,3 @@ cd CRM
 </div>
 
 
-### Steps to contribute
-
-- [x] Star and Fork the repository [Repo](https://github.com/codeverything/awesome-projects)
-- [x] Official GitHub [Contributing Guide](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request)
-- [x] Sync latest branch with your forked repository before changing things.
-- [x] Create a folder with appropriate name relevant to the internship program.
-- [x] Update the ReadMe file with a verified open-source internship program.
-- [x] 🎉Congrats!!, You've made your contribution.
